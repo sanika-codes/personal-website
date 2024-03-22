@@ -1,0 +1,80 @@
+//Fonts
+$text-font : 'EB Garamond', serif;
+$heading-font : 'EB Garamond', serif;
+
+//Colors
+$dark-green : #3c4323;
+$darker-green : #141d0c;
+$off-white : #fefae0;
+$earth-yellow : #b97527;
+
+body {
+  margin: 0;
+  font-family: $text-font,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size:22px;
+}
+
+h1,h2,h3 {
+  font-family: $heading-font, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    font-weight:500;
+}
+
+a{
+  color: $earth-yellow;
+  font-weight : bold;
+  text-decoration: none;
+ 
+  :hover{
+    color: $dark-green;
+  }
+}
+button{
+  font-family: $text-font;
+  font-size: 18px;
+    line-height: 1.4;
+    height: 60px;
+    padding: 0 30px ;
+    border-radius: 30px ;
+    font-weight :300;
+    background-color: $darker-green;
+    color: $earth-yellow;
+    border-style: none;
+    border : 1px solid $earth-yellow;
+
+  }
+
+  
+
+  button.cta{
+    background-color: $earth-yellow;
+    color:$off-white;
+    font-size : 1.5rem;
+    box-shadow: 0px 3px 5px black;
+  }
+  button:hover{
+    background-color: $dark-green;
+    
+  }
+  .container{
+    padding : 5%;
+    height : 100%;
+    position: sticky;
+   top : 0;
+  }
+
+  .section-heading{
+    font-size : 50px;
+    border-bottom : 1px solid black;    
+}
+
+.flex-grow{
+  flex-grow:1;
+}
+
+ 

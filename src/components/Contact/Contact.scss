@@ -1,0 +1,28 @@
+@use '../../index';
+
+
+.contactSection{
+    background-color: index.$earth-yellow;
+    color : index.$off-white;
+   
+}
+.contact-item{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap : 20px;
+
+   img{
+        width : 5%;
+    }
+    a{
+        color : index.$darker-green;
+        text-decoration: none;
+        font-weight : bold;
+    }
+    a:hover{
+        color : index.$dark-green;
+    }
+}
+
+

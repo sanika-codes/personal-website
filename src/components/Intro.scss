@@ -1,0 +1,29 @@
+@use "../index";
+
+.introSection {
+  background-color: index.$darker-green;
+  color: index.$off-white;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+  padding: 0 !important;
+
+  #introImage {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+  #introText{
+    padding:5%;
+  }
+}
+
+.introSection h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.namaskar {
+  width: 1em;
+}

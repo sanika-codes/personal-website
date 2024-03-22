@@ -1,0 +1,49 @@
+@use "../index";
+
+.aboutSection {
+  background-color: index.$off-white;
+  color: index.$dark-green;
+  h3 {
+    display: inline;
+  }
+}
+
+.about-inner {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  p{
+    width:100%;
+  }
+}
+.flower {
+  display: inline;
+  margin-right: 20px;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 8%;
+  background-color: #b9752747;
+  border-radius: 15px;
+  padding: 0 2%;
+
+  h2 {
+    font-size: 1em;
+    font-weight:900;
+  }
+  ul{
+    flex-grow: 1;
+  }
+  li {
+    display: inline-block;
+    padding: 2%;
+    min-width: 3em;
+    text-align: center;
+  }
+  li:not(:last-child) {
+    border-right: 1px solid black;
+  }
+}
