@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.scss";
-import flowerImg from "../../assets/images/flower.png";
 import ContactItem from "./ContactItem";
 
 function Contact() {

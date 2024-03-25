@@ -1,5 +1,5 @@
 import React from 'react';
-import flowerImg from '../../assets/images/flower.png';
+import flowerImg from '../../assets/images/logo192.png';
 
 function ContactItem({text, link}) {
   return (
@@ -9,7 +9,7 @@ function ContactItem({text, link}) {
           <a
             href={link}
             target="_blank"
-            rel="noreferer"
+            rel="noreferrer"
           >
             {text}
           </a>

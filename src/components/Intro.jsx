@@ -2,6 +2,7 @@ import React from "react";
 import './Intro.scss';
 import namaste from '../assets/images/namaste.png';
 import myPhoto from '../assets/images/sanika.jpeg';
+import myResume from "../assets/files/Sanika Patwardhan Resume.pdf";
 
 function Intro() {
   return (
@@ -14,7 +15,7 @@ function Intro() {
         My name is Sanika Patwardhan. I bring designs and ideas to (e-)life
         using modern front-end technologies like React and Next.js
       </p>
-      <button class="cta">Download my Resume</button>
+      <button class="cta"><a href={myResume} target="_blank">Download my Resume</a></button>
       </div>
      
     </div>

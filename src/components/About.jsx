@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import flowerImg from "../assets/images/flower.png";
+import flowerImg from "../assets/images/logo192.png";
 
 function About() {
   return (
