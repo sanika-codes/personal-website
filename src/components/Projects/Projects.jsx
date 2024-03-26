@@ -26,7 +26,7 @@ function Projects() {
         autoplay="false"
         navigation="true"
         theme-color="#000000"
-        breakpoints="{&quot;767&quot;:{&quot;slidesPerView&quot;:2},&quot;1024&quot;:{&quot;slidesPerView&quot;:3.5}}"
+        breakpoints="{&quot;640&quot;:{&quot;slidesPerView&quot;:2},&quot;1024&quot;:{&quot;slidesPerView&quot;:3.5}}"
 
         
       >

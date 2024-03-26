@@ -10,8 +10,8 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     width: 100%;
-    min-height:100%;
-    position:relative;
+    min-height: 100%;
+    position: relative;
   }
 }
 main {
@@ -19,12 +19,10 @@ main {
   margin-left: 30%;
   height: 100%;
   text-align: left;
-  overflow: auto;
 }
 @media screen and (max-width: 1024px) {
   main {
     width: 100%;
     margin-left: 0;
-    
   }
 }
