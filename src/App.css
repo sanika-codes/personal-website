@@ -1,31 +1,31 @@
 .App {
   text-align: center;
-  height : 100vh;
+  height: 100vh;
 }
-header{
-  width:30%;
-  height : 100%;
+header {
+  width: 30%;
+  height: 100%;
   position: fixed;
-
-  @media screen and (max-width : 1024px){
-    width : 100%;
+}
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
     position: sticky;
-    top : 0;
-    height : 100vh;
+    top: 0;
+    height: 100vh;
   }
 }
-main{
-  width:70%;
-  margin-left : 30%;
-  height : 100%;
+main {
+  width: 70%;
+  margin-left: 30%;
+  height: 100%;
   text-align: left;
-  overflow : auto;
-
-  @media screen and (max-width : 1024px){
-    width : 100%;
-    margin-left : 0;
+  overflow: auto;
+}
+@media screen and (max-width: 1024px) {
+  main {
+    width: 100%;
+    margin-left: 0;
     position: absolute;
   }
 }
-
-
