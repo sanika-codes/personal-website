@@ -10,9 +10,8 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     width: 100%;
-    position: sticky;
-    top: 0;
-    height: 100vh;
+    min-height:100%;
+    position:relative;
   }
 }
 main {
@@ -26,6 +25,6 @@ main {
   main {
     width: 100%;
     margin-left: 0;
-    position: absolute;
+    
   }
 }

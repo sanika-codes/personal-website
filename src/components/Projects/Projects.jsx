@@ -23,10 +23,10 @@ function Projects() {
         space-between = "20"
         centered-slides = "true"
         centered-slides-bounds = "true"
-        autoplay="true"
+        autoplay="false"
         navigation="true"
         theme-color="#000000"
-        breakpoints="{&quot;640&quot;:{&quot;slidesPerView&quot;:2},&quot;1024&quot;:{&quot;slidesPerView&quot;:3.5}}"
+        breakpoints="{&quot;767&quot;:{&quot;slidesPerView&quot;:2},&quot;1024&quot;:{&quot;slidesPerView&quot;:3.5}}"
 
         
       >
@@ -37,6 +37,8 @@ function Projects() {
         })
        }
       </swiper-container>
+
+      <p>You can also check out my past work as a Wordpress Website Developer <a href="http://theamberhorizons.com/work" target="_blank" rel="noreferrer">here</a></p>
       </div>
 
   );

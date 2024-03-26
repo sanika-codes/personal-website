@@ -8,6 +8,11 @@ $darker-green : #141d0c;
 $off-white : #fefae0;
 $earth-yellow : #b97527;
 
+:root {
+  --swiper-navigation-color: #141d0c;
+  --swiper-theme-color: #141d0c;
+  --swiper-navigation-size:2em;
+}
 body {
   margin: 0;
   font-family: $text-font,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,6 +22,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   font-size:22px;
+}
+@media screen and (max-width:1024px){
+  body{
+    font-size:20px;
+  }
+}
+@media screen and (max-width:768px){
+  body{
+    font-size:18px;
+  }
 }
 
 h1,h2,h3 {
@@ -54,7 +69,7 @@ button{
   button.cta{
     background-color: $earth-yellow;
     color:$off-white;
-    font-size : 1.5rem;
+    font-size : 1.2rem;
     box-shadow: 0px 3px 5px black;
   }
   button:hover{
@@ -63,13 +78,12 @@ button{
   }
   .container{
     padding : 5%;
-    height : 100%;
-    position: sticky;
-   top : 0;
+    min-height : 100%;
+   
   }
 
   .section-heading{
-    font-size : 50px;
+    font-size : 2em;
     border-bottom : 1px solid black;    
 }
 

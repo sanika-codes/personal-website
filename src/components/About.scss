@@ -48,3 +48,16 @@
     border-right: 1px solid black;
   }
 }
+
+@media screen and (max-width:767px){
+    .skills{
+        flex-direction: column;
+    }
+
+    .skills ul{
+        padding-left: 0;
+    }
+    .skills li{
+        padding:4%
+    }
+}

@@ -13,7 +13,7 @@ function Intro() {
       I am a React JS Developer</h1>
       <p>
         My name is Sanika Patwardhan. I bring designs and ideas to (e-)life
-        using modern front-end technologies like React and Next.js
+        using modern front-end technologies like React.
       </p>
       <button class="cta"><a href={myResume} target="_blank">Download my Resume</a></button>
       </div>
