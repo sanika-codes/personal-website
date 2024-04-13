@@ -26,14 +26,14 @@ function Projects() {
         autoplay="false"
         navigation="true"
         theme-color="#000000"
-        breakpoints="{&quot;640&quot;:{&quot;slidesPerView&quot;:2},&quot;1024&quot;:{&quot;slidesPerView&quot;:3.5}}"
+        breakpoints="{&quot;400&quot;:{&quot;slidesPerView&quot;:1},&quot;1024&quot;:{&quot;slidesPerView&quot;:3.5}}"
 
         
       >
         
        {
         projectsList.map( project => {
-          return <swiper-slide height="500" key={project.name}><ProjectCard {...project}/></swiper-slide>
+          return <swiper-slide  key={project.name}><ProjectCard {...project}/></swiper-slide>
         })
        }
       </swiper-container>

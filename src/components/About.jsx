@@ -10,8 +10,7 @@ function About() {
         I am a Masters in Computer Science graduate with 6 years of experience
         in the front-end domain. After having freelanced for the last 4 years, I
         am now open to taking up a full-time remote position as a front-end
-        developer. I am also interested in eventually transitioning into
-        full-stack.
+        developer.
       </p>
 
       <div className="about-inner">

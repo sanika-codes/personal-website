@@ -26,9 +26,8 @@
   display: flex;
   align-items: center;
   width: 100%;
-  gap: 8%;
-  background-color: #b9752747;
-  border-radius: 15px;
+ 
+  
   padding: 0 2%;
 
   h2 {
@@ -43,10 +42,12 @@
     padding: 2%;
     min-width: 3em;
     text-align: center;
+    background-color: #b9752747;
+  border-radius: 15px;
+  margin-right:20px;
+  margin-bottom:10px;
   }
-  li:not(:last-child) {
-    border-right: 1px solid black;
-  }
+ 
 }
 
 @media screen and (max-width:767px){

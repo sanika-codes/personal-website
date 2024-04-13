@@ -11,7 +11,8 @@ $earth-yellow : #b97527;
 :root {
   --swiper-navigation-color: #141d0c;
   --swiper-theme-color: #141d0c;
-  --swiper-navigation-size:2em;
+  --swiper-navigation-size:1em;
+  --swiper-navigation-sides-offset : 40px
 }
 body {
   margin: 0;

@@ -72,3 +72,9 @@ swiper-container {
     
   }
 }
+
+@media screen and (max-width:767px){
+  swiper-slide{
+    width:400px !important;
+  }
+}
