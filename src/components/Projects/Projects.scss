@@ -66,15 +66,5 @@ swiper-container {
 
 }
 
-@media screen and (max-width:1024px){
-  .project-card{
-    min-height:40vh;
-    
-  }
-}
 
-@media screen and (max-width:767px){
-  swiper-slide{
-    width:400px !important;
-  }
-}
+
