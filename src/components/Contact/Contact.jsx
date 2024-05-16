@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 import ContactItem from "./ContactItem";
+import Feedback from "../Feedback";
 
 function Contact() {
   return (
@@ -18,6 +19,7 @@ function Contact() {
         text="Connect on Linkedin"
         link="https://www.linkedin.com/in/sanikapatwardhan/"
       />
+      <Feedback/>
     </div>
   );
 }

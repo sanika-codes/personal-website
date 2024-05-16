@@ -1,0 +1,41 @@
+@use '../index';
+
+.thumb{
+    width: 3.5em;
+    margin: 0 10px;
+    cursor:pointer;
+    transform: translateY(10px)
+}
+
+
+.send{
+    width:0.8em;
+}
+.submit-feedback{
+    background-color: index.$off-white;
+    border-radius: 50%;
+    padding: 15px 20px;
+    margin-left: 10px;
+    cursor:pointer;
+
+}
+
+.submit-feedback:hover{
+    background-color: index.$dark-green;
+}
+
+
+#feedback{
+    background-color:transparent;
+    border:none;
+    border-bottom: 2px solid index.$off-white;
+    margin:0 20px;
+    color: index.$off-white;
+    font-family: inherit;
+    font-size:inherit;
+}
+#show-response span{
+    margin-left: 20px;
+    color : index.$darker-green;
+    font-weight:bold;
+}
