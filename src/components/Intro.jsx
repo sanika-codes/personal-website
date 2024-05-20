@@ -15,7 +15,7 @@ function Intro() {
         My name is Sanika Patwardhan. I bring designs and ideas to (e-)life
         using modern front-end technologies like React.
       </p>
-      <button class="cta theme-button"><a href={myResume} target="_blank" rel="noreferrer">Download my Resume</a></button>
+      <button className="cta theme-button"><a href={myResume} target="_blank" rel="noreferrer">Download my Resume</a></button>
       </div>
      
     </div>
